@@ -2,17 +2,21 @@
   <div id="app" class="text-light cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="masthead mb-auto">
       <div class="inner">
-        <h3 class="masthead-brand">Cover</h3>
+        <h3 class="masthead-brand">Zehao Sean Huang</h3>
         <nav class="nav nav-masthead justify-content-center">
           <router-link class="nav-link" to="/">Home</router-link>
-          <router-link class="nav-link" to="/about">About</router-link>
+          <router-link class="nav-link" to="/experiences">Experiences</router-link>
+          <router-link class="nav-link" to="/projects">Projects</router-link>
+          <router-link class="nav-link" to="/others">Others</router-link>
         </nav>
       </div>
     </header>
-    <router-view/>
+      <transition name="fade" mode="out-in">
+          <router-view/>
+      </transition>
     <footer class="mastfoot mt-auto">
       <div class="inner">
-        <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        <p>Credit: <a href="https://getbootstrap.com/">Bootstrap</a>, Theme: <a href="https://twitter.com/mdo">@mdo</a>.</p>
       </div>
     </footer>
   </div>
@@ -25,6 +29,36 @@ html {
 }
 
 body.home {
+  height: 100%;
+  background-color: #333;
+  display: -ms-flexbox;
+  display: flex;
+  /*color: #fff;*/
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+body.projects {
+  height: 100%;
+  background-color: #333;
+  display: -ms-flexbox;
+  display: flex;
+  /*color: #fff;*/
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+body.others {
+  height: 100%;
+  background-color: #333;
+  display: -ms-flexbox;
+  display: flex;
+  /*color: #fff;*/
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+body.experiences {
   height: 100%;
   background-color: #333;
   display: -ms-flexbox;
@@ -103,5 +137,17 @@ body.home {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition-duration: 0.3s;
+    transition-property: opacity;
+    transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+    opacity: 0
 }
 </style>
