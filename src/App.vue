@@ -1,13 +1,13 @@
 <template>
-  <div id="app" class="text-light cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <div id="app" class="text-light container cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="masthead mb-auto">
       <div class="inner">
         <h3 class="masthead-brand">Zehao Sean Huang</h3>
         <nav class="nav nav-masthead justify-content-center">
-          <router-link class="nav-link" to="/">Home</router-link>
-          <router-link class="nav-link" to="/experiences">Experiences</router-link>
-          <router-link class="nav-link" to="/projects">Projects</router-link>
-          <router-link class="nav-link" to="/others">Others</router-link>
+          <router-link class="nav-link" active-class="active" to="/#">Home</router-link>
+          <router-link class="nav-link" active-class="active" to="/experiences">Experiences</router-link>
+          <router-link class="nav-link" active-class="active" to="/projects">Projects</router-link>
+          <router-link class="nav-link" active-class="active" to="/others">Others</router-link>
         </nav>
       </div>
     </header>
