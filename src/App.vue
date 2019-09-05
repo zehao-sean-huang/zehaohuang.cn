@@ -45,7 +45,7 @@ body.home {
   display: -ms-flexbox;
   display: flex;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  /*box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
 }
 
 body.projects {
@@ -59,7 +59,7 @@ body.projects {
   display: flex;
   /*color: #fff;*/
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  /*box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
 }
 
 body.others {
@@ -87,23 +87,9 @@ body.experiences {
   display: flex;
   /*color: #fff;*/
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  /*box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
 }
 
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
-}
 /*
  * Header
  */
