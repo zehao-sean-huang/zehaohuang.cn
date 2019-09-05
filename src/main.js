@@ -11,7 +11,7 @@ import 'jquery';
 // Font Awesome
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faLinkedin, faGithub, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faFileCode, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faFileCode, faExternalLinkAlt, faLink } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 library.add(faLinkedin);
 library.add(faGithub);
@@ -20,6 +20,7 @@ library.add(faFacebook);
 library.add(faEnvelope);
 library.add(faFileCode);
 library.add(faExternalLinkAlt);
+library.add(faLink);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.config.productionTip = false;

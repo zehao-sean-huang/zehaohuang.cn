@@ -3,6 +3,19 @@
     <div class="experiences">
       <div class="container">
         <div class="row">
+          <experience :company = "'Funnel Foods'"
+                      :title = "'Mobile Development Lead'"
+                      :content = "[
+                        '- Berkeley startup using machine learning to suggest recipes based on users\' shopping patterns. (Mentors\' Choice in the IANext100 2019 Hackathon)',
+                        '- Led a team of 3 on a cross-platform mobile app and a landing page for seeking VC funds.',
+                      ]"
+                      :range = "'01/2019 - Present'"
+                      :img = "'funnel.png'"
+                      :links = "[
+                        {href: 'https://funnelfoods.com', iconFamily: 'fas', iconName: 'link'},
+                        {href: 'https://github.com/FunnelFoods', iconFamily: 'fab', iconName: 'github'}
+                      ]"
+          ></experience>
           <experience :company = "'Uncountable Inc'"
                       :title = "'Incoming Software Engineering Intern'"
                       :content = "[
@@ -11,22 +24,7 @@
                       ]"
                       :range = "'01/2020 - 05/2020'"
                       :img = "'uncountable.png'"
-                      :links="[{href: 'https://uncountable.com', iconFamily: 'fas', iconName: 'external-link-alt'}]"
-          ></experience>
-          <experience :company = "'Funnel Foods'"
-                      :title = "'Mobile Development Lead'"
-                      :content = "[
-                        '- Berkeley startup that recommends recipes based on users\' shopping patterns using machine learning.',
-                        '- Won Mentors\' Choice in the IANext100 2019 Hackathon (1 among 170+ students).',
-                        '- Independently implemented https://funnelfoods.com, a landing website used to pitch venture capitals.',
-                        '- Led a team of 3 on a cross-platform mobile app. See https://github.com/FunnelFoods/.',
-                      ]"
-                      :range = "'01/2019 - Present'"
-                      :img = "'funnel.png'"
-                      :links = "[
-                        {href: 'https://funnelfoods.com', iconFamily: 'fas', iconName: 'external-link-alt'},
-                        {href: 'https://github.com/FunnelFoods', iconFamily: 'fab', iconName: 'github'}
-                      ]"
+                      :links="[{href: 'https://uncountable.com', iconFamily: 'fas', iconName: 'link'}]"
           ></experience>
           <experience :company = "'UC Berkeley CoE'"
                       :title = "'Contract System Administrator'"
@@ -37,7 +35,7 @@
                       :range = "'01/2019 - Present'"
                       :img = "'coe.jpg'"
                       :links = "[
-                        {href: 'https://autolab.berkeley.edu', iconFamily: 'fas', iconName: 'external-link-alt'},
+                        {href: 'https://autolab.berkeley.edu', iconFamily: 'fas', iconName: 'link'},
                         {href: 'https://github.com/berkeleyautomation', iconFamily: 'fab', iconName: 'github'}
                       ]"
           ></experience>

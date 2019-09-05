@@ -13,7 +13,7 @@
                                 :range = "'01/2017 - Present'"
                                 :img = "'geziwen.jpg'"
                                 :links = "[
-                                    {href: 'https://geziwen.com', iconFamily: 'fas', iconName: 'external-link-alt'},
+                                    {href: 'https://geziwen.com', iconFamily: 'fas', iconName: 'link'},
                                     {href: 'https://github.com/geziwen', iconFamily: 'fab', iconName: 'github'}
                                 ]"
                     ></experience>
@@ -26,7 +26,7 @@
                                 :range = "'03/2017 - 08/2017'"
                                 :img = "'icsi.png'"
                                 :links = "[
-                                    {href: 'https://icsi.berkeley.edu', iconFamily: 'fas', iconName: 'external-link-alt'},
+                                    {href: 'https://icsi.berkeley.edu', iconFamily: 'fas', iconName: 'link'},
                                 ]"
                     ></experience>
                     <experience :company = "'Siping Soft.'"
@@ -38,7 +38,7 @@
                                 :range = "'01/2017 - 02/2017'"
                                 :img = "'siping.png'"
                                 :links = "[
-                                    {href: 'https://sipingsoft.com', iconFamily: 'fas', iconName: 'external-link-alt'},
+                                    {href: 'https://sipingsoft.com', iconFamily: 'fas', iconName: 'link'},
                                 ]"
                     ></experience>
                 </div>

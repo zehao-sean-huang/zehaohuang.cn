@@ -1,8 +1,8 @@
 <template>
-    <div class="col-md-4 experience text-dark">
-        <div class="card my-3 shadow-sm justify-content-center">
-            <img :src="getImgUrl(img)" width="50%" class="rounded mx-auto mt-1"/>
-            <div class="card-body">
+    <div class="col-md-4 experience text-light">
+        <div class="card mt-3 mb-4 justify-content-center shadow-lg">
+            <img class="rounded mx-auto mt-3" :src="getImgUrl(img)" width="50%" />
+            <div class="card-body card-header text-dark">
                 <h5 class="card-title">
                     {{ company }}
                     <a :href="link.href" v-for="link in links" target="_blank" class="mx-1 text-dark">
@@ -11,14 +11,14 @@
                 </h5>
                 <p class="card-text">{{ title }}</p>
             </div>
-            <div class="card-body card-content">
-                <div class="content">
-                    <div class="text-left">
-                        <p v-for="line in content">{{ line }}</p>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <small class="text-light">{{ range }}</small>
-                    </div>
+        </div>
+        <div class="card-content my-3">
+            <div class="content">
+                <div class="text-left">
+                    <p v-for="line in content">{{ line }}</p>
+                </div>
+                <div class="d-flex justify-content-lg-end align-items-center">
+                    <small class="text-light">{{ range }}</small>
                 </div>
             </div>
         </div>
@@ -32,9 +32,21 @@
             margin-right: 2em;
         }
     }
+    .card > img {
+        background: white;
+    }
+    .card {
+        border: none;
+        background: rgba(255,255,255,1);
+    }
+    .card-header {
+        background: rgba(0,0,0,0);
+    }
     .card-content {
-        background: #555555;
+        background: rgba(86,86,86,0);
         color: white;
+        font-family: 'Avenir', Helvetica, Arial, sans-serif;
+        font-weight: 500;
     }
 </style>
 

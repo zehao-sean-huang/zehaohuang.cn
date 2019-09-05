@@ -25,22 +25,36 @@
 <style lang="scss">
 html {
   height: 100%;
-  background-color: #333;
+  background: url(~@/assets/background.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background: url(~@/assets/background.png) no-repeat center center;
 }
 
 body.home {
   height: 100%;
-  background-color: #333;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   display: -ms-flexbox;
   display: flex;
-  /*color: #fff;*/
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
 body.projects {
   height: 100%;
-  background-color: #333;
+  /*background-image: url(~@/assets/background.png);*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   display: -ms-flexbox;
   display: flex;
   /*color: #fff;*/
@@ -50,7 +64,11 @@ body.projects {
 
 body.others {
   height: 100%;
-  background-color: #333;
+  /*background-image: url(~@/assets/background.png);*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   display: -ms-flexbox;
   display: flex;
   /*color: #fff;*/
@@ -60,7 +78,11 @@ body.others {
 
 body.experiences {
   height: 100%;
-  background-color: #333;
+  /*background-image: url(~@/assets/background.png);*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   display: -ms-flexbox;
   display: flex;
   /*color: #fff;*/
@@ -86,6 +108,7 @@ body.experiences {
  * Header
  */
 .masthead {
+  margin-top: 3rem;
   margin-bottom: 2rem;
 }
 
