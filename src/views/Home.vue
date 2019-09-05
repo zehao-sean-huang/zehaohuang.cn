@@ -28,6 +28,9 @@
               <a class="mx-2" href="https://zehaohuang.cn/resume.pdf" target="_blank">
                 <font-awesome-icon :icon="['fas', 'file-code']" size="2x"></font-awesome-icon>
               </a>
+              <a class="mx-2" href="https://www.youtube.com/channel/UCcAYX5tDnNUNfLjgVWeU9cA" target="_blank">
+                <font-awesome-icon :icon="['fab', 'youtube']" size="2x"></font-awesome-icon>
+              </a>
             </p>
           </div>
         </div>

@@ -45,7 +45,6 @@ body.home {
   display: -ms-flexbox;
   display: flex;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  /*box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
 }
 
 body.projects {
@@ -59,7 +58,6 @@ body.projects {
   display: flex;
   /*color: #fff;*/
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  /*box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
 }
 
 body.others {
@@ -73,7 +71,6 @@ body.others {
   display: flex;
   /*color: #fff;*/
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
 body.experiences {
@@ -87,7 +84,6 @@ body.experiences {
   display: flex;
   /*color: #fff;*/
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  /*box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
 }
 
 /*
