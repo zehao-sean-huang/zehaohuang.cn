@@ -42,12 +42,12 @@
         </div>
       </div>
     </div>
-    <router-link class="carousel-control-prev" to="/#" role="button"
+    <router-link class="carousel-control-prev position-fixed" to="/#" role="button"
                  data-toggle="tooltip" data-placement="right" title="Tooltip on right">
       <span class="carousel-control-prev-icon" aria-hidden="true" style="font-size: 50px;"></span>
       <span class="sr-only">Previous</span>
     </router-link>
-    <router-link class="carousel-control-next" to="/projects" role="button"
+    <router-link class="carousel-control-next position-fixed" to="/projects" role="button"
                  data-toggle="tooltip" data-placement="right" title="Tooltip on right">
       <span class="carousel-control-next-icon" aria-hidden="true" style="font-size: 50px;"></span>
       <span class="sr-only">Next</span>

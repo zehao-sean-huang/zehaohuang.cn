@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <router-link class="carousel-control-next" to="/experiences" role="button"
+    <router-link class="carousel-control-next position-fixed" to="/experiences" role="button"
                  data-toggle="tooltip" data-placement="right" title="Tooltip on right">
       <span class="carousel-control-next-icon" aria-hidden="true" style="font-size: 50px;"></span>
       <span class="sr-only">Next</span>
