@@ -25,7 +25,7 @@
 <style lang="scss">
 html {
   height: 100%;
-  background: url(~@/assets/background.png) no-repeat center center;
+  background: url(~@/assets/background.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -33,7 +33,7 @@ html {
 }
 
 body {
-  background: url(~@/assets/background.png) no-repeat center center;
+  background: url(~@/assets/background.png) no-repeat center center fixed;
 }
 
 body.home {
