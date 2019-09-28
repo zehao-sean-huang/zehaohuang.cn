@@ -6,6 +6,7 @@
         <nav class="nav nav-masthead justify-content-center">
           <router-link class="nav-link" active-class="active" to="/#">Home</router-link>
           <router-link class="nav-link" active-class="active" to="/experiences">Experiences</router-link>
+          <router-link class="nav-link" active-class="active" to="/research">Research</router-link>
           <router-link class="nav-link" active-class="active" to="/projects">Projects</router-link>
           <router-link class="nav-link" active-class="active" to="/others">Others</router-link>
         </nav>
@@ -74,6 +75,19 @@ body.others {
 }
 
 body.experiences {
+  height: 100%;
+  /*background-image: url(~@/assets/background.png);*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  /*color: #fff;*/
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+body.research {
   height: 100%;
   /*background-image: url(~@/assets/background.png);*/
   -webkit-background-size: cover;

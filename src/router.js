@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import Experiences from "./views/Experiences.vue";
 import Others from "./views/Others.vue";
 import Projects from "./views/Projects.vue";
+import Research from "./views/Research";
 
 Vue.use(Router);
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/projects',
       name: 'projects',
       component: Projects
+    },
+    {
+      path: '/research',
+      name: 'research',
+      component: Research
     }
   ]
 })

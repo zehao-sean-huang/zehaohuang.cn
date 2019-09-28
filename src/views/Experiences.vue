@@ -47,7 +47,7 @@
       <span class="carousel-control-prev-icon" aria-hidden="true" style="font-size: 50px;"></span>
       <span class="sr-only">Previous</span>
     </router-link>
-    <router-link class="carousel-control-next position-fixed" to="/projects" role="button"
+    <router-link class="carousel-control-next position-fixed" to="/research" role="button"
                  data-toggle="tooltip" data-placement="right" title="Tooltip on right">
       <span class="carousel-control-next-icon" aria-hidden="true" style="font-size: 50px;"></span>
       <span class="sr-only">Next</span>
