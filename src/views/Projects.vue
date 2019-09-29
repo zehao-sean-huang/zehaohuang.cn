@@ -26,7 +26,7 @@
                                 :range = "'03/2017 - 08/2017'"
                                 :img = "'icsi.png'"
                                 :links = "[
-                                    {href: 'https://icsi.berkeley.edu', iconFamily: 'fas', iconName: 'link'},
+                                    {href: 'http://icsi.berkeley.edu', iconFamily: 'fas', iconName: 'link'},
                                 ]"
                     ></experience>
                     <experience :company = "'Siping Soft.'"
