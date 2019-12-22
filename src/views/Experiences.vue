@@ -3,6 +3,15 @@
     <div class="experiences">
       <div class="container">
         <div class="row">
+          <experience :company = "'Stripe Inc'"
+                      :title = "'Incoming Software Engineering Intern'"
+                      :content = "[
+                        'Team assignment unknown until 2020',
+                      ]"
+                      :range = "'05/2020 - 08/2020'"
+                      :img = "'stripe.png'"
+                      :links="[{href: 'https://stripe.com', iconFamily: 'fas', iconName: 'link'}]"
+          />
           <experience :company = "'Funnel Foods'"
                       :title = "'Mobile Development Lead'"
                       :content = "[
@@ -15,17 +24,8 @@
                         {href: 'https://funnelfoods.com', iconFamily: 'fas', iconName: 'link'},
                         {href: 'https://github.com/FunnelFoods', iconFamily: 'fab', iconName: 'github'}
                       ]"
-          ></experience>
-          <experience :company = "'Uncountable Inc'"
-                      :title = "'Incoming Software Engineering Intern'"
-                      :content = "[
-                        '- YC-backed startup based in SF that boosts R\&D in materials and products using machine learning.',
-                        '- Help build a web interface for a machine learning application using React JS \& Python Flask.',
-                      ]"
-                      :range = "'01/2020 - 05/2020'"
-                      :img = "'uncountable.png'"
-                      :links="[{href: 'https://uncountable.com', iconFamily: 'fas', iconName: 'link'}]"
-          ></experience>
+          />
+
           <experience :company = "'UC Berkeley CoE'"
                       :title = "'Contract System Administrator'"
                       :content = "[
@@ -38,7 +38,7 @@
                         {href: 'https://autolab.berkeley.edu', iconFamily: 'fas', iconName: 'link'},
                         {href: 'https://github.com/berkeleyautomation', iconFamily: 'fab', iconName: 'github'}
                       ]"
-          ></experience>
+          />
         </div>
       </div>
     </div>
